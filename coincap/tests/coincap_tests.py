@@ -1,4 +1,4 @@
-from coincap.coincap import *
+from coincap.coincap import CoinCap
 import unittest
 
 
