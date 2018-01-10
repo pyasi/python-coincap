@@ -4,7 +4,7 @@ import unittest
 
 class TestCoinCap(unittest.TestCase):
     """
-
+    Unit tests
     """
 
     def setUp(self):
