@@ -2,8 +2,6 @@
 A python wrapper for the coincap API
 
 
-
-
 ## Installation
 
 ```
@@ -192,3 +190,4 @@ History can be 1, 7, 30, 90, 180, or 365 days
 	'symbol': 'OK'
 }
 ```
+
