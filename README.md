@@ -17,7 +17,7 @@ coincap = CoinCap()
 ```
 
  
-#### Get list of all coins
+### - Get list of all coins
  ```
  coincap.get_all_coins()
  ```
@@ -27,7 +27,7 @@ coincap = CoinCap()
 ['300', '611', '808', '888', 'INT', 'DTR', 'EOS', 'SANDG', 'QSP'] ...
 ```
 
-#### Get single coin information
+### - Get single coin information
  ```
  coincap.get_coin_detail('BTC')
  ```
@@ -65,7 +65,7 @@ coincap = CoinCap()
 }
 ```
 
-#### Get coin history
+### - Get coin history
 
 History can be 1, 7, 30, 90, 180, or 365 days
  ```
@@ -108,7 +108,7 @@ History can be 1, 7, 30, 90, 180, or 365 days
 }
 ```
 
-#### Get global market information
+### - Get global market information
  ```
  coincap.get_global()
  ```
@@ -128,7 +128,7 @@ History can be 1, 7, 30, 90, 180, or 365 days
 }
 ```
 
-#### Get "front page" coins. (by markert cap rank)
+### - Get "front page" coins. (by markert cap rank)
  ```
  coincap.get_front()
  ```
@@ -167,7 +167,7 @@ History can be 1, 7, 30, 90, 180, or 365 days
 ]
 ```
 
-#### Get coin symbols, names, and aliases
+### - Get coin symbols, names, and aliases
  ```
  coincap.get_map()
  ```
