@@ -67,9 +67,16 @@ coincap = CoinCap()
 
 ### - Get coin history
 
-History can be 1, 7, 30, 90, 180, or 365 days
+History can be 1, 7, 30, 90, 180, 365 days or all available.  To pull history for one of the allowed time periods include the time period (in days) as the 2nd argument.  
+
+##### Examples:
  ```
  coincap.get_coin_history('ETH', 1)
+ ```
+
+ To pull all available history, omit the 2nd argument:
+ ```
+ coincap.get_coin_history('ETH')
  ```
  
 ##### Response

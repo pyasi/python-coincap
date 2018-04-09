@@ -18,6 +18,10 @@ class TestCoinCap(unittest.TestCase):
         response = self.coin_cap.get_coin_history('ETH', 7)
         assert isinstance(response, dict)
 
+    def test_full_history_success(self):
+        response = self.coin_cap.get_coin_history('ETH')
+        assert isinstance(response, dict)
+
     def test_coin_detail(self):
         response = self.coin_cap.get_coin_detail('BTC')
         assert isinstance(response, dict)
