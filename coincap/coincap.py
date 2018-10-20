@@ -71,3 +71,13 @@ class CoinCap(object):
         if days not in supported_days:
             raise Exception('{} days not supported, please pick from {}'.format(days, supported_days))
         return self._query_coincap('history/{}day/{}'.format(str(days), coin_ticker))
+
+    def get_coin_history(self, coin_ticker):
+        """
+        Returns the full history of a coin
+
+        :param coin_ticker: ticker for coin to get detail from
+        :return: JSON object with coin's full available history
+        """
+
+        return self._query_coincap('history/{}'.format(coin_ticker))
